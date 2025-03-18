@@ -1,4 +1,4 @@
-# 📌 College Placement & Career Guidance Portal
+#  College Placement & Career Guidance Portal
 
 A web-based portal designed to help students connect with recruiters, apply for job opportunities, and receive career guidance. The system provides a seamless interface for students, administrators, and companies to manage placement-related activities efficiently.
 
