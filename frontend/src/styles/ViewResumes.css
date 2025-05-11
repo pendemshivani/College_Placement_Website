@@ -1,0 +1,83 @@
+/* General Layout */
+.view-resumes-container {
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #72a1d0, #e0f7fa);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Header */
+  .title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #1f2937;
+  }
+  
+  /* Messages */
+  .loading-text,
+  .empty-message {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #6b7280;
+  }
+  
+  /* Resume List */
+  .resume-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.75rem;
+  }
+  
+  /* Resume Card */
+  .resume-card {
+    background: linear-gradient(to bottom right, #ffffff, #f9fafb);
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  .resume-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Text Info */
+  .resume-info h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: #111827;
+  }
+  
+  .resume-info p {
+    font-size: 0.95rem;
+    color: #4b5563;
+  }
+  
+  /* View Button */
+  .view-button {
+    padding: 0.5rem 1.2rem;
+    background: linear-gradient(to right, #3b82f6, #2563eb);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    transition: back ground 0.3s ease, transform 0.2s ease;
+  }
+  
+  .view-button:hover {
+    background: linear-gradient(to right, #2563eb, #1e40af);
+    transform: scale(1.05);
+  }
+  

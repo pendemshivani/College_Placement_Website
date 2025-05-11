@@ -1,0 +1,66 @@
+/* ManageInterviewGuidance.css */
+
+/* Background setup */
+.guidance-page {
+    background: linear-gradient(to right, #e0ecff, #f8fbff);
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container styling */
+  .manage-guidance-container {
+    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .manage-guidance-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #1f2937;
+  }
+  
+  /* Inputs */
+  .manage-input,
+  .manage-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f9fafb;
+  }
+  
+  /* Textarea specifically */
+  .manage-textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  /* Button */
+  .manage-button {
+    width: 100%;
+    background-color: #51d24dd0;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .manage-button:hover {
+    background-color: #4d6ed2d0;
+  }
+  

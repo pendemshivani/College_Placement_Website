@@ -1,0 +1,64 @@
+/* Background and layout */
+.manage-jobs-page {
+    background: linear-gradient(to right, #f0f4ff, #ffffff);
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Card container */
+  .manage-jobs-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Heading */
+  .manage-jobs-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input fields */
+  .manage-jobs-input,
+  .manage-jobs-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9fafb;
+  }
+  
+  /* Textarea size */
+  .manage-jobs-textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  /* Button styling */
+  .manage-jobs-button {
+    width: 100%;
+    background-color: #16a34a;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .manage-jobs-button:hover {
+    background-color: #15803d;
+  }
+  

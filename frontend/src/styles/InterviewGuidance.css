@@ -1,0 +1,98 @@
+/* Container and Wrapper */
+.guidance-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ebf8ff, #bee3f8);
+    padding: 2rem;
+  }
+  
+  .guidance-wrapper {
+    max-width: 900px;
+    margin: auto;
+    color: #2d3748;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Header */
+  .guidance-heading {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    color: #2b6cb0;
+    margin-bottom: 3rem;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Section Styling */
+  .section {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .section:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #3182ce;
+    border-left: 5px solid #63b3ed;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Lists */
+  .guidance-list {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .guidance-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .list-item {
+    font-weight: 500;
+    color: #4a5568;
+  }
+  
+  /* Notes and Emphasis */
+  .note {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #718096;
+    margin-top: 0.5rem;
+  }
+  
+  /* Final Thought Box */
+  .final-thought {
+    background-color: #90cdf4;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-top: 3rem;
+  }
+  
+  .final-thought h3 {
+    font-size: 1.5rem;
+    color: #2b6cb0;
+    margin-bottom: 1rem;
+  }
+  
+  .final-line {
+    font-weight: 600;
+    color: #2a4365;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
